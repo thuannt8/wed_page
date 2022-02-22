@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="asm22.css">
+    <title>31-Nguyễn Trọng Thuận-PS23536</title>
+</head>
+<body>
+    <div>
+        <img src="images/Capture.PNG" id="hinh">
+    </div>
+    <p>
+        <form action="action_page.php">
+            Họ và tên đệm:<br>
+            <input type="text" name="txtHoDem" value="Tài khoản đăng nhập">
+            Tên:
+            <input type="text" name="txtTen" value="Mật khẩu">
+            <input type="submit" value="Đăng nhập">
+            <input type ="button" name="đăng kí " value="Đăng kí tài khoản">
+            </form>
+            <ul >
+                <li><a href="#home">Trang chủ</a></li>
+                <li><a href="./khuyenmai.html">Khuyến mãi</a></li>
+                    
+               
+                <li><a href="./diachi.html">Địa chỉ</a></li>
+                <li><a href="./khachhangthanthiet.html">Khách hàng thân thiết</a></li>
+            </ul>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/23yJOu9LSwE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            
+            <div class="products-list" style="width: 100%; " >
+                <div class="container">
+                    <div class="card card-custom">
+                        <div class="top-div"> <span><i class="fa fa-angle-left"></i></span> <button>NEW</button> <span><i class="fa fa-shopping-cart"></i><small></small></span> </div>
+                        <div class="image-section"> <img src="https://shopgiayreplica.com/wp-content/uploads/2018/07/adidas-superstar-white-replica.jpg">
+                            <div class="circle"> <span></span> <span></span> <span></span> <span></span> </div>
+                        </div>
+                        <div class="bottom-div">
+                            <h3>Bitis Hunter</h3>
+                            <div class="sign"> <span id="minus"><i class="fa fa-minus"></i></span> <small id="quantity">1</small> <span id="plus"><i class="fa fa-plus"></i></span> </div>
+                        </div>
+                        <p></p>
+                        <div class="last-section">
+                            <div class="last"> <i class="fa fa-plus-square"></i> <button>Add to cart</button> </div> <input type="hidden" value="200" id="product_input_price">
+                            <p>$<span id="price">200</span></p>
+                        </div>
+                    </div>
+                    <div class="card card-custom">
+                        <div class="top-div"> <span><i class="fa fa-angle-left"></i></span> <button>NEW</button> <span><i class="fa fa-shopping-cart"></i><small></small></span> </div>
+                        <div class="image-section"> <img src="https://shopgiayreplica.com/wp-content/uploads/2018/07/adidas-superstar-white-replica.jpg">
+                            <div class="circle"> <span></span> <span></span> <span></span> <span></span> </div>
+                        </div>
+                        <div class="bottom-div">
+                            <h3>Nikke</h3>
+                            <div class="sign"> <span id="minus"><i class="fa fa-minus"></i></span> <small id="quantity">1</small> <span id="plus"><i class="fa fa-plus"></i></span> </div>
+                        </div>
+                        <p></p>
+                        <div class="last-section">
+                            <div class="last"> <i class="fa fa-plus-square"></i> <button>Add to cart</button> </div> <input type="hidden" value="200" id="product_input_price">
+                            <p>$<span id="price">200</span></p>
+                        </div>
+                    </div>
+                    <div class="card card-custom">
+                        <div class="top-div"> <span><i class="fa fa-angle-left"></i></span> <button>NEW</button> <span><i class="fa fa-shopping-cart"></i><small></small></span> </div>
+                        <div class="image-section"> <img src="https://shopgiayreplica.com/wp-content/uploads/2018/07/adidas-superstar-white-replica.jpg">
+                            <div class="circle"> <span></span> <span></span> <span></span> <span></span> </div>
+                        </div>
+                        <div class="bottom-div">
+                            <h3>Adidas</h3>
+                            <div class="sign"> <span id="minus"><i class="fa fa-minus"></i></span> <small id="quantity">1</small> <span id="plus"><i class="fa fa-plus"></i></span> </div>
+                        </div>
+                        <p></p>
+                        <div class="last-section">
+                            <div class="last"> <i class="fa fa-plus-square"></i> <button>Add to cart</button> </div> <input type="hidden" value="200" id="product_input_price">
+                            <p>$<span id="price">200</span></p>
+                        </div>
+                    </div>
+                    <div class="card card-custom">
+                        <div class="top-div"> <span><i class="fa fa-angle-left"></i></span> <button>NEW</button> <span><i class="fa fa-shopping-cart"></i><small></small></span> </div>
+                        <div class="image-section"> <img src="data:image/jpeg;base64,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">
+                            <div class="circle"> <span></span> <span></span> <span></span> <span></span> </div>
+                        </div>
+                        <div class="bottom-div">
+                            <h3>Converse</h3>
+                            <div class="sign"> <span id="minus"><i class="fa fa-minus"></i></span> <small id="quantity">1</small> <span id="plus"><i class="fa fa-plus"></i></span> </div>
+                        </div>
+                        <p></p>
+                        <div class="last-section">
+                            <div class="last"> <i class="fa fa-plus-square"></i> <button>Add to cart</button> </div> <input type="hidden" value="200" id="product_input_price">
+                            <p>$<span id="price">200</span></p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+    </p>
+        
+        <ul >
+            <li class="footer-content">
+                <h3>SẢN PHẦM</h3>
+                <a href="#home">Áo </a>
+                <a href="#home">Giày bóng đá</a>
+                <a href="#home">Quần</a>
+            </li>
+            <li>
+                <h3>BỘ SƯU TẬP</h3>
+                <a href="home">Giày Superstar</a>
+                <a href="home">Giày NMD</a>
+                <a href="home">Giày Stan smith</a>
+            </li>
+            <li>
+                <h3>THÔNG TIN VỀ CÔNG TY</h3>
+                <a href="home">Giới thiệu về chúng tôi </a>
+                <a href="home">Cơ hội nghề nghiệp </a>
+                <a href="home">Tin tức </a>
+            </li>
+            <li>
+                <h3>HỔ TRỢ</h3>
+                <a href="home">Trợ giúp & dịch vụ khách hàng</a>
+                <a href="home">Biểu đồ kích cỡ</a>
+                <a href="home">Thanh toán </a>
+                <a href="home">Giao hàng</a>
+            </li>
+        </ul>
+        <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&width=450&layout=standard&action=like&size=small&share=true&height=35&appId" width="450" height="35" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        <script src="https://uhchat.net/code.php?f=acae83"></script>
+    </body>
+</html>
